@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathyusha Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/291869b459.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header">
+        <div class ="container">
+            <nav>
+                <img src="images/name (1).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#Coding-Profiles">Coding Profiles</a></li>
+                    <li><a href="#Certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+           
+            <div class="header-image" style="width: 80%; display: flex; justify-content: space-between; align-items: center;margin: 0 auto; padding-top: 50px;">
+            <div class="header-text" style="width: 65;">
+                <p>AIML Enthusiastic</p>
+                <h1>Hey, I'm <span style="color: #e63946;">Prathyusha</span> Boyina !</h1>
+             </div>
+    
+    <img src="images/profile.jpg" 
+         alt="Prathyusha Boyina" 
+         width="300" 
+         height="300"
+         style="border-radius: 50%; border: 5px solid #e63946;margin-right: -50px;"> 
+         
+</div>
+        </div>
+
+    </div> 
+
+</div>
+
+<!----------------------------about--------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/prathyusha.jpg" alt="Prathyusha">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I'm a Prathyusha Boyina, undergraduate student at Andhra University College of Engineering for Women, deeply immersed in Python, ML & Data Science. Fueled by curiosity, I turn knowledge into hands-on projects for true mastery. With a strong academic base and software development experience, I contribute to groundbreaking projects, staying at the forefront of technology. Welcome to my portfolio, where curiosity meets technical innovation.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>Python, C, Java, SQL </li>
+                        <li><span>Coursework</span><br>DSA, DBMS, OOPs,Operating Systems, Computer Networks </li>
+                        <li><span>Core-Subjects</span><br>Machine Learning, Artificial Intelligence, Natural Language Processing</li>
+                        <li><span>Data Analysis & Visualizations</span><br>NumPy, Pandas, PowerBI, Excel, Matplotlib, Seaborn</li>
+                        <li><span>DataBases</span><br>SQL, MongoDB</li>
+                        <li><span>Development</span><br>HTML, CSS, JavaScript, ReactJS, Django</li>
+                        <li><span>Tools</span><br>GitHub, VS-Code, PyCharm, MySQL, RStudio's, Colab</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Skill Dzire </span><br>Machine Learning Intern<a href="https://drive.google.com/file/d/1VaGPZlmpdBmPABFhpebnFLYXIOEStwLH/view" target="_blank">Certificate</a></li>
+                        <p>◦ Assisted in data preprocessing, feature engineering, and exploratory data analysis (EDA) using
+Python, Pandas, and Matplotlib.</p>
+                        <p>◦ Developed and optimized ML models (Regression, Classification, Clustering) using Scikit-learn and
+TensorFlow, achieving improved accuracy on test datasets.</p>
+                        <p>◦ Collaborated on real-world ML projects, deploying models in Jupyter Notebook/Colab and presenting
+actionable insights to mentors.</p> 
+                        <br>
+                        <li><span>Edvedha </span><br>Data Science Intern  <a href="https://drive.google.com/file/d/1rwNHlC-_jGsqgDUM6TCD8IPrk7xLTzQC/view" target="_blank">Certificate</a></li>
+                        <p>◦ Performed data visualization, feature engineering, and model building using Python, Pandas, NumPy, and Scikit-learn.</p>
+                        <p>◦ Interpreted model outputs and presented data-driven insights for better decision-making.</p>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Andhra University College of Engineering For Women</span><br>B.Tech- Information Technology <br>CGPA– 8.85/10</li>
+                        <br>
+                        <li><span> Narayana Junior College </span><br>BIEAP Intermediate – MPC<br>Percentage – 95% </li>
+                        <br>
+                        <li><span>Narayana (EM) School</span><br>BSEAP High School<br>CGPA - 10.00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------------------------------certfications----------------------------------------->
+<div id="Certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-file"></i>
+                <h2>The Joy Computing using Python</h2>
+                <p>IIT Madras - NPTEL 
+                    ELITE Certificate</p>
+                <a href="https://drive.google.com/file/d/1aq1HJduOLJCvZ4uXNk68Z625PZyT5Bgw/view">Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-brain"></i>
+                <h2>Introduction To SQL</h2>
+                <p>IBM-Edx</p>
+                <a href="https://drive.google.com/file/d/1wPj0NU8JfKA0d6uyyUNkKHqGruTw0C9v/view">Certificate</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Programming,
+                    Data Structures & Algorithms Using Python</h2>
+                <p>IIT Madras - NPTEL</p>
+                <a href="https://drive.google.com/file/d/1q1SV2m1uZQoeDLoOM9k1PoW0CKIJyNIj/view">Certificate</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-dev"></i>
+                <h2>Web Development</h2>
+                <p>TechnoHacks Solutions Pvt.Ltd</p>
+                <a href="https://drive.google.com/file/d/10ZmAtZE5fsEDs1BARRovboJqBvuo1l7Y/view">Certificate</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ----------portfolio----=------------------------------------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Personal Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png" alt="Movie Recommendation System">
+                <div class="layer">
+                    <h3>Movie Recommendation System</h3>
+                    <p>Developed a Movie Recommendation System using Machine Learning that suggests movies based on user preferences and similarity analysis.
+Built with Python,NumPy and streamlit to deliver personalized, data-driven recommendations.</p>
+                    <a href="https://github.com/Prathyu-456/Movie-Recommendation-System"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png" alt="Hospital Management System">
+                <div class="layer">
+                    <h3>Hospital Management System</h3>
+                    <p>Developed a Hospital Management System using Java to manage patient records, doctor details, and appointments efficiently.
+Implemented CRUD operations and a user-friendly interface for smooth hospital administration using Java.</p>
+                    <a href="https://github.com/Prathyu-456/Hospital-Management-system"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png" alt="Typing speed Test">
+                <div class="layer">
+                    <h3>Typing speed Test</h3>
+                    <p>Developed a web-based typing speed test application with user authentication, real-time WPM and accuracy
+calculation, and history tracking using Python. Users can register/login, take typing tests, view their past</p>
+                    <a href="https://github.com/Prathyu-456/TypingSpeedtest"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Prathyu-456?tab=repositories" class="btn">Wanna have look for all my projects</a>
+    </div>
+</div>
+
+
+<!-----------------------------------------Coding Prodiles---------------------------------------------->
+<div id ="Coding-Profiles">
+    <div class ="container">
+        <h1 class="sub-title">Coding Profiles </h1>
+        <div class="coding-list">
+            <div>
+                
+                <i class="fa-solid fa-code"></i>
+                <h2>LeetCode</h2>
+                <a href="https://leetcode.com/u/prathyusha_boyina/">Profile Link</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-hackerrank"></i>
+                <h2>Hackerrank</h2>
+                <a href="https://www.hackerrank.com/profile/boyinaprathyush1">Profile Link</a>
+            </div>  
+        </div>
+    </div>
+
+</div>
+
+
+
+<!-- ----------contact------------- -->
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> <a href="mailto:boyinaprathyusha0506@gmail.com">boyinaprathyusha050@gmail.com</a></p>
+                <p><i class="fas fa-phone-square-alt"></i> +91 9381658529 </p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/prathyusha-boyina"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Prathyu-456"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Prathyusha_Boyina_resume.pdf" download class="btn btn2">Download - Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 Prathyusha Boyina</p>
+    </div>
+</div>
+
+
+
+<script>
+    function opentab(tabname) {
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxpmkGy67tWqomPDWGSGVCTZzz8RgNhlVcXgSwyOxrB-Bg_e1FLvqK5JScvUF0NitvYEw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
